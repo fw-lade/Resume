@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
-    <link rel="stylesheet" href="/Resume/styles/style.css">
+    <link rel="stylesheet" href="/components/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 </head>
 <body>
-    
+    <div id="preloader"></div>
     <div id="container--main">
         <section id="wrapper--hero" class="section--page">
-            <img id="profile-pic" src="/Resume/assets/images/profile_pic.jpg" alt="">
+            <img id="profile-pic" src="/assets/images/pic.jpg" alt="">
 
             <div>
                 <h1 id="username">Bello Ololade Enoch</h1>
@@ -24,11 +25,9 @@
         <section class="section--page">
             <div id="socials--list">
                 <a href="https://instagram.com/lollypizzle_?igshid=YmMyMTA2M2Y=" target="_blank">Instagram</a>   
-                <!-- <a href="#" target="_blank">Whatsapp</a>
-                <a href="#" target="_blank">Twitter</a> -->
                 <a href="https://github.com/fw-lade" target="_blank">Github</a>
                 <a href="https://www.linkedin.com/in/bello-ololade-85b033233/" target="_blank">LinkedIn</a>
-                <a href="/Resume/assets/Resume-Bello-Ololade.pdf" target="_blank">Download Resume</a>
+                <a href="/assets/Resume-Bello-Ololade.pdf" target="_blank">Download Resume</a>
             </div>
         </section>
 
@@ -39,7 +38,7 @@
             <ul id="education">
                 <li>
                     <h2>🏫 Caleb University Lagos</h2>
-                    <h3>Bachelor of Science - BS, Computer Science</h3>
+                    <h3>Bachelor of Science - BSc. Computer Science</h3>
                     <p>Oct 2019 - Till Date</p>
                 </li>
                 <li>
@@ -67,24 +66,43 @@
             <div id="wrapper--techstack_items">
 
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/html.png" alt="">
                     <span>HTML</span>
                 </div>
                 <div class="card--stack">
-                    <span>CSS, Bootstrap</span>
+                    <img class="img-stack" src="/assets/images/css.png" alt="">
+                    <span>CSS</span>
                 </div>
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/bootstrap.png" alt="">
+                    <span>Bootstrap</span>
+                </div>
+                <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/tailwind.png" alt="">
+                    <span>Tailwind</span>
+                </div>
+                <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/js.png" alt="">
                     <span>JavaScript</span>
                 </div>
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/react.png" alt="">
                     <span>React JS</span>
                 </div>
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/python.png" alt="">
                     <span>Python</span>
-                </div>  
+                </div>
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/django.png" alt="">
+                    <span>Django</span>
+                </div>
+                <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/c++.png" alt="">
                     <span>C++</span>
-                </div> 
+                </div>
                 <div class="card--stack">
+                    <img class="img-stack" src="/assets/images/ms-office.png" alt="">
                     <span>MS Office</span>
                 </div>
             </div>
@@ -144,9 +162,15 @@
             <div class="card--project">
                 <a href="project1.html"><span>🏆 </span>In Progress ...Coming soon</a>
             </div>
-        
         </section>
-    </div>
 
+<!-- ++++++++++++++++++++++++++++ -->
+
+    <a href="https://wa.me/2348098765428" class="whatsapp_float" target="_blank" rel="noopener noreferrer">
+    <i class="fa fa-whatsapp whatsapp-icon"></i>
+    </a>
+
+    </div>
+    <script src="./components/script.js"></script>
 </body>
 </html>
